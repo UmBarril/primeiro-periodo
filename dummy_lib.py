@@ -1,0 +1,2 @@
+def FalarWhendel():
+    print("Whendel")

@@ -1,0 +1,69 @@
+1) É executar programas da memória por meio do ciclo buscar-interpretar-executar
+2 Hardware é a parte física de um computador enquanto 
+Software é um conjunto de instruções que serão executadas para esse Hardware
+2-b) Para simplificar o acesso a maquina foi necessário criar várias camadas de simplificação.
+Hoje em dia somos capazes de escolher em qual nível de complexidade podemos trabalhar
+3) Um compilador traduz por completo um programa escrito em uma linguagem de maior nível para uma de menor nível mas
+um interpretador apenas traduz um programa por partes e instantaneamente os executa
+4) CPU - Executa instruções;
+Memória principal - Guarda informações que são usadas pelo SO durante sua execução;
+Memória secundária - Guarda informações de forma permanente;
+Placa-mãe - Serve como conexão entre as outras partes do computador;
+Dispositivos de saída e entrada - São despositivos extras que não;
+6) 
+ULA (Unidade Lógia Aritmética) - Faz operações simples como: adição, subtração e mover dados de outras partes do computador para outras
+Registradores - São usados para armazenar dados que serão usados pela ULA
+UC (Unidade de Controle) - Executa as três ações básicas buscar-interpretar-executar com ajudar de outras partes do processador
+7) São usados para armazenar informações que serão usadas pelo procesador. Os principais são:
+PC (Program Counter) - Contém a posição da próxima instrução
+IR (Instruction Register) - Contém a instrução que está sendo executada
+8) 
+9)
+10) Resumidamente seria:
+1 - Copiar a instrução apontada pelo PC e colocar no IR; 
+2 - Mover o PC para a próxima instrução; 
+3 - Identificar o tipo de intrução que está para ser executada;
+4 - Caso precise, mover dados de um endereço da memória para um dos registradores;
+5 - Executar;
+6 - Voltar para o passo 1;
+11) A vantagem é permitir uma maior liberdade na contrução e planejamento da contrução do computador, 
+	uma vez que as instruções independem diretamente de como o hardware é construído.
+12) É uma sequencia de bits que ativa os circuitos necessarios para executar uma operação. 
+Geralmente programadores não tem acesso a esse nível de abstração.
+13) Paralelismo usando diferentes computadores, Paralelismo usando outros núcleos de um mesmo processador, Paralelismo 
+14)
+15)
+16)
+17) 
+18)
+19)
+20) Acho que race conditions(?)
+21) 
+22)
+23) A memória é onde são guardados dados para serem usados pelo resto do computador. 
+A memória cache é um tipo de memória bem rápida usada para armazenar temporariamente dados que são usados frequentemente pelo processador.
+
+A memória principal (RAM) é onde são guardadas informações que precisam ser acessadas rapidamente mas que não precisam estar na cache. 
+A sua velociadade está entre a da memória secundária da memória cache.
+
+A memória secundária (são por exemplo HD's, SSD's, ou em certas ocasiões pen drives) é onde informações são armazenadas de maneira permanente.
+É a mais lenta dos tipos de memória.
+24) Porque um sistema binário se baseia num sistema de desligado(baixa voltagem) e ligado(alta voltagem). Para mudar isso, poderiamos usar um sistema de diferentes niveis de voltagem, mais isso tornaria o sistema propenso a erros.
+25)
+	a) Possível 
+	b) Possível 
+	c) Impossível, 9 bits de endereço são insuficientes para representar 1024 posições na memória
+	d) Possível, mas pouco razoável, pois você pode representar 1024 posições com apenas 10 bits de endereço
+	e) Possível, mas pouco razoável, pois você pode representar 10 posições com apenas 4 bits de endereço 
+	e) Possível, mas muito pouco razoável, pois você pode representar 10 posições com apenas 4 bits de endereço 
+26) 2x128,4x64,8x32,16x16
+27)
+28) 
+29) (Resumidamente)Cada bit de paridade é usado para detectar uma parte dos dados. A soma das partes deve ser par. Caso for ímpar, será detectado um erro. Com essa técnica, é possível corrigir um erro e conseguir detectar 2 erros (mas sem a possibilidade de corrigir)
+30) Em sistemas de computadores, é tendencia um processador acessar um mesmo conjunto
+de locais de memoria em um curto espaço de tempo.
+Por isso, é usado um tipo de hierarquia de memória, para que os dados de memória 
+que forem mais acessados estejam numa memória de acesso mais rápido. 
+Isso torna o desemprenho de computadores muito mais rápidos.
+33) 
+
